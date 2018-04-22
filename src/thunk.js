@@ -4,3 +4,5 @@ let thunk = store => next => action =>{
     }
     return next(action);
 }
+
+export default thunk;
