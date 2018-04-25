@@ -2,8 +2,9 @@
 let logger = store=> next => action =>{
     console.log(store.getState());
     console.log(action);
-    next(action);
+    let result = next(action);
     console.log(store.getState());
+    result;
 };
 
 export default logger;

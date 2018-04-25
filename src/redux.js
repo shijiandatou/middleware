@@ -34,3 +34,5 @@ export{
     createStore,
     applyMiddleware
 }
+// const think = applyMiddleware(thunk,logger);
+// const store = createStore(reducer,defaultState,thnk);
